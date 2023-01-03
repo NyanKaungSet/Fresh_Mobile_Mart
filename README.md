@@ -1,1 +1,1 @@
-# This repo is permanently closed.
+# This repo will be updated from time to time.
