@@ -1,1 +1,1 @@
-# This website is currentlt under construction.
+# This website is currently under construction.
