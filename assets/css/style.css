@@ -18,3 +18,9 @@
 .active {
     background-color: #04AA6D;
 }
+.nav-link:hover{
+    background-color: #444;
+}
+.table,.card{
+    box-shadow: 5px 5px #000;
+}
