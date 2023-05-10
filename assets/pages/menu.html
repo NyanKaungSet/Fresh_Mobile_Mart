@@ -1,106 +1,52 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Today Menu</title>
-        <link rel="icon" type="image/x-icon" href="assets/_images/fmm.ico">
-        <link rel="stylesheet" href="assets/css/style.css">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-        <style>
-            .headtitle{
-                margin: 0 auto;
-                text-align: center;
-                color: darkred;
-                background: gold;
-            }
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/fmm.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--BootStrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!--Ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Fresh Mobile Mart | Menu</title>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark p-0 border-warning border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href=".././../index.html"><img class="rounded rounded-circle" src="../images/mmdish3.jpg" alt="Logo" width="50px" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href=".././../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../pages/menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/history.html">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-            table , th , td {
-                margin-top: 10px;
-                border:1px solid black;
-                border-collapse: collapse;
-                padding-top: 5px;
-                padding-bottom: 5px;
-                text-align: center;
-                font-size: 20px;
-            }
+    <button id="darkMode"><span id="darkLight">&#9790</span></button>
 
-            .Img{
-                width: 45%;
-                height: auto;
-                text-align: center;
-            }
+    <footer class="bg-dark" style="margin-top: 300px;">
+        <p class="text-center text-white p-3 mb-0">© 2021-<span id="currentYear"></span> Lorem Ipsum</p>
+    </footer>
 
-            th{
-                color: goldenrod;
-                background-color: darkred;
-            }
-
-            tr{
-                color: white;
-                background-color: darkred;
-            }
-        </style>
-    </head>
-    <body> 
-
-        <ul style="position: -webkit-sticky; position: sticky; top: 0;">
-          <li><a href="index.html">Home</a></li>
-          <li><a class="active" href="menu.html">Today Menu</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="history.html">History</a></li>
-        </ul>
-        <h1 class="headtitle">Today Menu</h1>
-        <h3 class="headtitle">Choose Your Favorite And Order It Now!! :)</h3>
-        <table style="width: 100%;">
-            <tr>
-                <th style="width: 50%;">Image</th>
-                <th>Name</th>
-                <th>Price(MMK)</th>
-                <th>Item Left</th>
-            </tr>
-
-            <tr>
-                <td><img class="Img" src="dish1.jpg"></td>
-                <td>Fried Fish</td>
-                <td>xxxxx MMK</td>
-                <td>Sold Out</td>
-            </tr>
-
-            <tr>
-                <td><img class="Img" src="dish2.jpg"></td>
-                <td>Fried Noodle</td>
-                <td>xxxxx MMK</td>
-                <td>Sold Out</td>
-            </tr>
-
-            <tr>
-                <td><img class="Img" src="dish3.jpg"></td>
-                <td>အင်ဥသုပ်</td>
-                <td>xxxxx MMK</td>
-                <td>Sold Out</td>
-            </tr>
-
-            <tr>
-                <td><img class="Img" src="dish4.jpg"></td>
-                <td>ငါးပိချက်</td>
-                <td>xxxxx MMK</td>
-                <td>Sold Out</td>
-            </tr>
-
-            <tr>
-                <td><img class="Img" src="dish5.jpg"></td>
-                <td>ဟင်းထုပ်</td>
-                <td>xxxxx MMK</td>
-                <td>Sold Out</td>
-            </tr>
-
-            <tr>
-                <td><img class="Img" src="dish6.jpg"></td>
-                <td>ဖော့ဖူးဟင်းချို</td>
-                <td>xxxxx MMK</td>
-                <td>Sold Out</td>
-            </tr>
-        </table>
-            
-     </body>
+    <script src="../scripts/script.js"></script>
+  </body>
 </html>
