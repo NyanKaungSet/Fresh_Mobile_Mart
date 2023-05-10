@@ -25,16 +25,13 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href=".././../index.html">Home</a>
+              <a class="nav-link p-2 px-4 rounded" href=".././../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/menu.html">Menu</a>
+              <a class="nav-link p-2 px-4 rounded" href="../pages/menu.html">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/history.html">History</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../pages/about.html">About</a>
+              <a class="nav-link active p-2 px-4 rounded" href="../pages/about.html">About</a>
             </li>
           </ul>
         </div>
@@ -43,7 +40,66 @@
 
     <button id="darkMode"><span id="darkLight">&#9790</span></button>
 
-    <footer class="bg-dark" style="margin-top: 300px;">
+    <section class="h-100" id="story"></section><hr>
+
+    <section class="mb-5" id="history">
+      <h1 class="text-center text-white">History</h1>
+      <table class="table table-striped table-bordered table-dark w-75 m-auto mt-5">
+        <tr>
+            <th style="background-color: darkred; color: goldenrod;">Name</th>
+            <th style="background-color: darkred; color: goldenrod;">Date</th>
+        </tr>
+        <tr>
+            <td>Website was created</td>
+            <td>10 Dec 2021</td>
+        </tr>
+        <tr>
+            <td>Website was temporarily closed due to no longer active</td>
+            <td>11 June 2022</td>
+        </tr>
+        <tr>
+            <td>Website reopened & Organized files into specific folders</td>
+            <td>4 Jan 2023</td>
+        </tr>
+        <tr>
+            <td>Updated website</td>
+            <td>10 May 2023 - ?</td>
+        </tr>
+      </table>
+    </section><hr>
+
+    <section class="container align-content-center" id="members">
+        <h1 class="text-light text-center"><ion-icon name="people-outline"></ion-icon> Meet The Team</h1>
+        <div class="container d-flex justify-content-around flex-wrap">
+
+            <div class="card mb-5" style="max-width:250px">
+                <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card image" style="width:100%">
+                <div class="card-body text-dark">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Lorem Ipsum Lorem Ipsum</p>
+                    <a href="" target="_blank" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>  
+            <div class="card mb-5" style="max-width:250px">
+                <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card image" style="width:100%">
+                <div class="card-body text-dark">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Lorem Ipsum Lorem Ipsum</p>
+                    <a href="" target="_blank" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+            <div class="card mb-5" style="max-width:250px">
+                <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card image" style="width:100%">
+                <div class="card-body text-dark">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Lorem Ipsum Lorem Ipsum</p>
+                    <a href="" target="_blank" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark" style="margin-top: 100px;">
         <p class="text-center text-white p-3 mb-0">© 2021-<span id="currentYear"></span> Lorem Ipsum</p>
     </footer>
 
