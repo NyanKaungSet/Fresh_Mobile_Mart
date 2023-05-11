@@ -16,7 +16,7 @@
     color: #fff;
 }
 .active {
-    background-color: #04AA6D;
+    background-color: #04AA6D !important;
 }
 .nav-link:hover{
     background-color: #444;
