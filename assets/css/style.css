@@ -1,3 +1,7 @@
+.nav-link{
+    margin-left: 3px;
+    margin-right: 3px;
+}
 #darkMode{
     width: 54px;
     height: 54px;
